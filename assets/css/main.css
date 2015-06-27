@@ -4,7 +4,7 @@ body,
 html {
   height: 100%;
   font-family: 'Raleway', sans-serif;
-  background: url(../../images/By_Lee_Roylland_bw.jpg) no-repeat center fixed;
+  background: url(../images/By_Lee_Roylland_bw.jpg) no-repeat center fixed;
   background-size: cover;
   color: #f7db26;
   margin: 0;
