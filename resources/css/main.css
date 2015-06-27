@@ -1,0 +1,181 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+@import url(http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css);
+body,
+html {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  background: url(../../images/By_Lee_Roylland_bw.jpg) no-repeat center fixed;
+  background-size: cover;
+  color: #f7db26;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  z-index: 9;
+}
+
+a {
+  text-decoration: none;
+  color: #f7db26;
+}
+
+.container {
+  height: 100%;
+  background-color: rgba(52, 152, 219, 0.8);
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  /* ...and now for the proper property */
+
+  transition: .5s;
+}
+
+.special {
+  color: white;
+}
+
+.intro-block {
+  font-style: bold;
+  font-size: 1.2em;
+  border: 2px yellow solid;
+  padding: 10px 0px;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  /* ...and now for the proper property */
+
+  transition: .5s;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.intro-block:hover {
+  background-color: #f7db26;
+  color: rgba(52, 152, 219, 1);
+}
+
+#intro {
+  padding-bottom: 200px;
+}
+
+#portfolio {
+  height: 1800px;
+  background-color: #f7db26;
+  color: #415f47;
+}
+
+.divider {
+  width: 40%;
+  background-color: white;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+#portfolio h1 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#portfolio h2 {
+  padding-left: 20px;
+}
+
+#portfolio .snippet {
+  padding: 0 20px;
+}
+
+.preview img {
+  width: 100%;
+}
+
+#portfolio .portfolio-item {
+  margin-top: 100px;
+  width: calc(100%-2px);
+  height: 33%;
+  border: 2px rgba(65, 95, 71, 0.8) solid;
+}
+
+#intro a #coder.intro-block:hover span {
+  display: none;
+}
+
+#intro a #coder.intro-block:hover:after {
+  content: 'GitHub:astoellis';
+}
+
+#intro a #blogger.intro-block:hover span {
+  display: none;
+}
+
+#intro a #blogger.intro-block:hover:after {
+  content: 'Blog:astoellis';
+}
+
+#intro a #contact-me.intro-block:hover span {
+  display: none;
+}
+
+#intro a #contact-me.intro-block:hover:after {
+  content: 'Get At Me';
+}
+
+#intro a #resume.intro-block:hover span {
+  display: none;
+}
+
+#intro a #resume.intro-block:hover:after {
+  content: 'Pretty Word Thing';
+}
+
+header {
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+
+@media (max-width: 40em) {
+  header {
+    font-size: 2.5em;
+  }
+  #intro {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .intro-block {
+    font-size: 1.5em;
+  }
+  #portfolio {
+    margin: 0 auto;
+  }
+  .preview {
+    width: 98%;
+    height: 30%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 40em) {
+  header {
+    font-size: 3em;
+  }
+  #intro {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .intro-block {
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 80em) {
+  header {
+    font-size: 3.5em;
+  }
+  #intro {
+    width: 30%;
+    margin: 0 auto;
+  }
+  .intro-block {
+    font-size: 2.5em;
+  }
+}
