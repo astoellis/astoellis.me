@@ -19,7 +19,6 @@ a {
 }
 
 .container {
-    height: 200%;
     background-color: rgba(52, 152, 219, 0.8);
     -o-transition: .5s;
     -ms-transition: .5s;
@@ -31,6 +30,10 @@ a {
 
 .special {
     color: white;
+}
+
+#intro {
+    padding-bottom: 50px;
 }
 
 .intro {
@@ -63,7 +66,7 @@ a {
 
 #portfolio {
     height: 1200px;
-    background-color: #2ecc71;
+    background-color: rgba(39, 174, 96, .6);
     color: #FFF;
 }
 
@@ -74,31 +77,45 @@ a {
 }
 
 .portfolio-item {
-    width: 30%;
-    height: 150px;
+    width: 350px;
+    height: 200px;
     font-style: bold;
     font-size: 1.2em;
-    border: 2px yellow solid;
-    padding: 10px 50px;
-    -o-transition: .7s;
-    -ms-transition: .7s;
-    -moz-transition: .7s;
-    -webkit-transition: .7s;
+    /*border: 2px yellow solid;*/
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
     /* ...and now for the proper property */
-    transition: .7s;
+    transition: .5s;
     text-align: center;
-    margin: 20px auto;
-    display: inline-block;
+    margin: 50px auto;
 }
 
 .portfolio-item:hover {
-    background-color: #f7db26;
-    color: rgba(52, 152, 219, 1);
+    color: #FFF;
+    box-shadow: 3px 3px 5px black;
+
+
 }
 
 .portfolio-item>.desc {
-  display: none;
-  position: relative;
+    display: none;
+    position: relative;
+    left: 120%;
+}
+
+#getmood {
+    background: url(../images/getmood.png) no-repeat center center;
+    /*background-size: cover;*/
+}
+
+#uplinkd {
+  background: url(../images/uplinkd.png) no-repeat center center;
+}
+
+#nozama {
+  background: url(../images/nozama.png) no-repeat center center;
 }
 
 #intro a #coder.intro-block:hover span {
