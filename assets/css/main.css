@@ -1,203 +1,173 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 @import url(http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css);
-body,
-html {
-    height: 100%;
-    font-family: 'Raleway', sans-serif;
-    background: url(../images/By_Lee_Roylland_bw.jpg) no-repeat center fixed;
-    background-size: cover;
-    color: #f7db26;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    z-index: 9;
+body, html {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  background: url(../images/By_Lee_Roylland_bw_small.jpg) no-repeat center fixed;
+  background-size: cover;
+  color: #f7db26;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  z-index: 9;
 }
-
 a {
-    text-decoration: none;
-    color: #f7db26;
+  text-decoration: none;
+  color: #f7db26;
 }
-
 .container {
-    background-color: rgba(52, 152, 219, 0.8);
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    /* ...and now for the proper property */
-    transition: .5s;
+  background-color: rgba(52, 152, 219, 0.8);
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  /* ...and now for the proper property */
+  transition: .5s;
 }
-
 .special {
-    color: white;
+  color: white;
 }
-
-#intro {
-    padding-bottom: 50px;
+#main {
+  padding-bottom: 50px;
 }
-
 .intro {
-    font-size: 3em;
-    text-align: center;
-    padding-top: 50px;
-    color: white;
-    margin: 50px auto;
+  font-size: 3em;
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+  margin: 50px auto;
 }
-
 .intro-block {
-    font-style: bold;
-    font-size: 1.2em;
-    border: 2px yellow solid;
-    padding: 10px 0px;
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    /* ...and now for the proper property */
-    transition: .5s;
-    text-align: center;
-    margin: 10px auto;
+  font-style: bold;
+  font-size: 1.2em;
+  border: 2px yellow solid;
+  padding: 10px 0px;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  /* ...and now for the proper property */
+  transition: .5s;
+  text-align: center;
+  margin: 10px auto;
 }
-
 .intro-block:hover {
-    background-color: #f7db26;
-    color: rgba(52, 152, 219, 1);
+  background-color: #f7db26;
+  color: rgba(52, 152, 219, 1);
 }
-
 #portfolio {
-    height: 1200px;
-    background-color: rgba(39, 174, 96, .6);
-    color: #FFF;
+  height: 1200px;
+  background-color: rgba(39, 174, 96, .6);
+  color: #FFF;
 }
-
 #portfolio-items {
-    width: 50%;
-    margin: 0 auto;
-    padding-left: 8%;
+  width: 50%;
+  margin: 0 auto;
 }
-
 .portfolio-item {
-    width: 350px;
-    height: 200px;
-    font-style: bold;
-    font-size: 1.2em;
-    /*border: 2px yellow solid;*/
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    /* ...and now for the proper property */
-    transition: .5s;
-    text-align: center;
-    margin: 50px auto;
+  width: 350px;
+  height: 200px;
+  font-style: bold;
+  font-size: 1.2em;
+  /*border: 2px yellow solid;*/
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  /* ...and now for the proper property */
+  transition: .5s;
+  text-align: center;
+  margin: 50px auto;
 }
-
 .portfolio-item:hover {
-    color: #FFF;
-    box-shadow: 3px 3px 5px black;
-
-
+  color: #FFF;
+  box-shadow: 3px 3px 5px black;
 }
-
 .portfolio-item>.desc {
-    display: none;
-    position: relative;
-    left: 120%;
+  display: none;
+  position: relative;
+  left: 110%;
+  color: #FFF;
 }
-
+/*Images for the portfolio section*/
 #getmood {
-    background: url(../images/getmood.png) no-repeat center center;
-    /*background-size: cover;*/
-}
-
-#uplinkd {
-  background: url(../images/uplinkd.png) no-repeat center center;
+  background: url(../images/getmood.png) no-repeat center center;
 }
 
 #nozama {
   background: url(../images/nozama.png) no-repeat center center;
 }
 
-#intro a #coder.intro-block:hover span {
-    display: none;
+/*MAIN HOVERABLES*/
+#main a #coder.intro-block:hover span {
+  display: none;
 }
-
-#intro a #coder.intro-block:hover:after {
-    content: 'GitHub:astoellis';
+#main a #coder.intro-block:hover:after {
+  content: 'GitHub:astoellis';
 }
-
-#intro a #blogger.intro-block:hover span {
-    display: none;
+#main a #blogger.intro-block:hover span {
+  display: none;
 }
-
-#intro a #blogger.intro-block:hover:after {
-    content: 'Blog:astoellis';
+#main a #blogger.intro-block:hover:after {
+  content: 'Blog:astoellis';
 }
-
-#intro a #contact-me.intro-block:hover span {
-    display: none;
+#main a #contact-me.intro-block:hover span {
+  display: none;
 }
-
-#intro a #contact-me.intro-block:hover:after {
-    content: 'Drop me a Line';
+#main a #contact-me.intro-block:hover:after {
+  content: 'Drop me a Line';
 }
-
-#intro a #resume.intro-block:hover span {
-    display: none;
+#main a #resume.intro-block:hover span {
+  display: none;
 }
-
-#intro a #resume.intro-block:hover:after {
-    content: 'Pretty Word Thing';
+#main a #resume.intro-block:hover:after {
+  content: 'Pretty Word Thing';
 }
-
 header {
-    text-align: center;
-    padding-bottom: 1.5em;
+  text-align: center;
+  padding-bottom: 1.5em;
 }
-
 @media (max-width: 40em) {
-    header {
-        font-size: 2.5em;
-    }
-    #intro {
-        width: 80%;
-        margin: 0 auto;
-    }
-    .intro-block {
-        font-size: 1.5em;
-    }
-    #portfolio {
-        margin: 0 auto;
-    }
-    .preview {
-        width: 98%;
-        height: 30%;
-        margin: 0 auto;
-    }
+  header {
+    font-size: 2.5em;
+  }
+  #main {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .intro-block {
+    font-size: 1.5em;
+  }
+  #portfolio {
+    margin: 0 auto;
+  }
+  .preview {
+    width: 98%;
+    height: 30%;
+    margin: 0 auto;
+  }
 }
-
 @media (min-width: 40em) {
-    header {
-        font-size: 3em;
-    }
-    #intro {
-        width: 50%;
-        margin: 0 auto;
-    }
-    .intro-block {
-        font-size: 2em;
-    }
+  header {
+    font-size: 3em;
+  }
+  #main {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .intro-block {
+    font-size: 2em;
+  }
 }
-
 @media (min-width: 80em) {
-    header {
-        font-size: 3.5em;
-    }
-    #intro {
-        width: 30%;
-        margin: 0 auto;
-    }
-    .intro-block {
-        font-size: 2.5em;
-    }
+  header {
+    font-size: 3.5em;
+  }
+  #main {
+    width: 30%;
+    margin: 0 auto;
+  }
+  .intro-block {
+    font-size: 2.5em;
+  }
 }
