@@ -98,6 +98,10 @@ a {
   background: url(../images/nozama.png) no-repeat center center;
 }
 
+#tic-tac-hue {
+  background: url(../images/tictachue.png) no-repeat center center;
+}
+
 /*MAIN HOVERABLES*/
 #main a #coder.intro-block:hover span {
   display: none;
@@ -115,7 +119,7 @@ a {
   display: none;
 }
 #main a #contact-me.intro-block:hover:after {
-  content: 'Drop me a Line';
+  content: 'andrew + at + astoellis.me';
 }
 #main a #resume.intro-block:hover span {
   display: none;
@@ -127,6 +131,8 @@ header {
   text-align: center;
   padding-bottom: 1.5em;
 }
+
+/*SET FOR MEDIUM*/
 @media (max-width: 40em) {
   header {
     font-size: 2.5em;
@@ -147,6 +153,7 @@ header {
     margin: 0 auto;
   }
 }
+/*SET FOR LG*/
 @media (min-width: 40em) {
   header {
     font-size: 3em;
@@ -158,7 +165,9 @@ header {
   .intro-block {
     font-size: 2em;
   }
+
 }
+/*SET FOR LARGE*/
 @media (min-width: 80em) {
   header {
     font-size: 3.5em;

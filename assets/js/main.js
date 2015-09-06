@@ -1,8 +1,16 @@
-$(document).ready(function() {
-  $('.portfolio-item').on('mouseenter', function(e) {
-    $(this).children('.desc').show().addClass('animated slideInUp');
-  });
-  $('.portfolio-item').on('mouseleave', function(e) {
-    $(this).children('.desc').hide().removeClass('animated slideInUp');
-  });
+document.addEventListener("DOMContentLoaded", function() {
+  var els = document.getElementsByClassName('portfolio-item');
+  for (var i = 0; i < els.length; i++) {
+    els[i].addEventListener('mouseenter', function(e){
+      var blah = this.children[0];
+      blah.style.display = 'block';
+      blah.className += ' animated slideInUp';
+    }, false);
+
+    els[i].addEventListener('mouseleave', function(e){
+      var blah = this.children[0];
+      blah.style.display = 'none';
+      blah.className  = 'desc';
+    }, false);
+  }
 });
