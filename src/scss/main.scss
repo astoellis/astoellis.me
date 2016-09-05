@@ -1,9 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
-@import url(http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css);
 body, html {
   height: 100%;
-  font-family: 'Raleway', sans-serif;
-  background: url(../img/By_Lee_Roylland_bw_small.jpg) no-repeat center fixed;
+  font-family: 'Julius Sans One', sans-serif;
+  background: url(../img/By_Lee_Roylland_bw_small.jpg) no-repeat fixed;
   background-size: cover;
   color: #f7dc26;
   margin: 0;
@@ -16,7 +14,7 @@ a {
   color: #f7db26;
 }
 .container {
-  background-color: rgba(52, 152, 219, 0.8);
+  background-color: rgba(52, 152, 219, 0.5);
   -o-transition: .5s;
   -ms-transition: .5s;
   -moz-transition: .5s;
@@ -24,25 +22,12 @@ a {
   /* ...and now for the proper property */
   transition: .5s;
   height: 100%;
+  overflow: hidden;
 }
-.special {
-  color: white;
-}
-#main {
-  padding-bottom: 50px;
-}
-.intro {
-  font-size: 3em;
-  text-align: center;
-  padding-top: 50px;
-  color: white;
-  margin: 50px auto;
-}
+
 .intro-block {
-  font-style: bold;
   font-size: 1.2em;
-  border: 2px yellow solid;
-  padding: 10px 0px;
+  border: 2px #f7db26 solid;
   -o-transition: .5s;
   -ms-transition: .5s;
   -moz-transition: .5s;
@@ -57,14 +42,29 @@ a {
   color: rgba(52, 152, 219, 1);
 }
 
-header {
+h1 {
   text-align: center;
-  padding-bottom: 1.5em;
+  font-family: 'Archivo Black', sans-serif;
+  color: rgba( 255, 255, 255, .9);
+  font-weight: lighter;
 }
 
 /*SET FOR MEDIUM*/
 @media (max-width: 40em) {
-  header {
+  h1 {
+    font-size: 2.5em;
+  }
+  #main {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .intro-block {
+    font-size: 1.5em;
+  }
+}
+/*SET FOR S*/
+@media (max-width: 25em) {
+  h1 {
     font-size: 2.5em;
   }
   #main {
@@ -74,22 +74,14 @@ header {
   .intro-block {
     font-size: 1.5em;
   }
-  #portfolio {
-    margin: 0 auto;
-  }
-  .preview {
-    width: 98%;
-    height: 30%;
-    margin: 0 auto;
-  }
 }
-/*SET FOR LG*/
+/*SET FOR L*/
 @media (min-width: 40em) {
-  header {
+  h1 {
     font-size: 3em;
   }
   #main {
-    width: 50%;
+    width: 35%;
     margin: 0 auto;
   }
   .intro-block {
@@ -97,9 +89,9 @@ header {
   }
 
 }
-/*SET FOR LARGE*/
+/*SET FOR XL*/
 @media (min-width: 80em) {
-  header {
+  h1 {
     font-size: 3.5em;
   }
   #main {
