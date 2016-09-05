@@ -4,3 +4,5 @@ getmood.us/
 Old/
 .ftpquota
 .htaccess
+node_modules/
+temp/

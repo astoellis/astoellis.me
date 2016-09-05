@@ -1,0 +1,26 @@
+{
+  "name": "astoellis.me",
+  "version": "1.0.0",
+  "description": "personal site",
+  "main": " ",
+  "scripts": {
+    "test": " "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astoellis/astoellis.me.git"
+  },
+  "author": "Andrew S. Ellis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/astoellis/astoellis.me/issues"
+  },
+  "homepage": "https://github.com/astoellis/astoellis.me#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-sass": "^1.2.1",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}
