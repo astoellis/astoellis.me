@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Andrew Ellis</title>
+  <link href="/css/main.min.css" rel="stylesheet">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+  <div class="container">
+  <header>
+    Andrew S. Ellis
+  </header>
+  <div id="main">
+    <a href="https://github.com/astoellis" target="_new">
+      <div class="intro-block" id="coder">
+        <span class="superduper">Coder</span>
+      </div>
+    </a>
+    <a href="http://blog.astoellis.me/" target="_new">
+      <div class="intro-block" id="blogger">
+        <span class="superduper">Learner</span>
+      </div>
+    </a>
+    <a href="mailto:andrew@astoellis.me" target="_new">
+      <div class="intro-block" id="contact-me">
+        <span class="superduper">Listener</span>
+      </div>
+    </a>
+    <a href="/Resume_Andrew_Ellis.pdf" target="_new">
+      <div class="intro-block" id="resume">
+        <span class="superduper">Doer</span>
+      </div>
+    </a>
+  </div>
+</div>
+</div>
+<script>  var els = document.getElementsByClassName('portfolio-item');
+  document.addEventListener("DOMContentLoaded", function() {
+  for (var i = 0; i < els.length; i++) {
+    els[i].addEventListener('mouseenter', function(e){
+      var blah = this.children[0];
+      blah.style.display = 'block';
+      blah.className += ' animated slideInUp';
+    }, false);
+
+    els[i].addEventListener('mouseleave', function(e){
+      var blah = this.children[0];
+      blah.style.display = 'none';
+      blah.className  = 'desc';
+    }, false);
+  }
+});
+</script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-83730011-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+</body>
+
+</html>

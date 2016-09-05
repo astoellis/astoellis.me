@@ -1,0 +1,5 @@
+## Allow for Googlebot access to Sitemap
+User-agent: *
+
+# Sitemap
+Sitemap: http://www.astoellis.me/sitemap.xml
