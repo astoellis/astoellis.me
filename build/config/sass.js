@@ -4,7 +4,7 @@ module.exports = {
   },
   dist: {
     files: {
-      'temp/main.css': 'assets/css/main.scss'
+      'temp/main.css': 'src/scss/main.scss'
     }
   }
 };
