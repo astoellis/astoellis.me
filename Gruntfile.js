@@ -13,6 +13,8 @@ module.exports = function( grunt ) {
     watch: require('./build/config/watch'),
     // insert scripts
     insert: require('./build/config/insert'),
+    // copy static files
+    copy: require('./build/config/copy'),
   } );
 
   // load npm plugins (all dependencies that match /^grunt/)

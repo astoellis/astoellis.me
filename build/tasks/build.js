@@ -11,7 +11,8 @@ module.exports = function( grunt ) {
   grunt.registerTask( 'build', [
     'sass',
     'cssmin',
-    'imagemin'
+    'imagemin',
+    'copy:main'
   ] );
 
 };

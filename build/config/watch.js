@@ -11,5 +11,11 @@ module.exports = {
       'src/**/*.{png,jpg,gif}',
     ],
     tasks: [ 'build:images' ]
+  },
+  root: {
+    files: [
+      'src/*'
+    ],
+    tasks: ['copy:main']
   }
 }
