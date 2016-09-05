@@ -5,7 +5,7 @@ body, html {
   font-family: 'Raleway', sans-serif;
   background: url(../img/By_Lee_Roylland_bw_small.jpg) no-repeat center fixed;
   background-size: cover;
-  color: #f7db26;
+  color: #f7dc26;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -55,78 +55,7 @@ a {
   background-color: #f7db26;
   color: rgba(52, 152, 219, 1);
 }
-#portfolio {
-  height: 1200px;
-  background-color: rgba(39, 174, 96, .6);
-  color: #FFF;
-}
-#portfolio-items {
-  width: 50%;
-  margin: 0 auto;
-}
-.portfolio-item {
-  width: 350px;
-  height: 200px;
-  font-style: bold;
-  font-size: 1.2em;
-  /*border: 2px yellow solid;*/
-  -o-transition: .5s;
-  -ms-transition: .5s;
-  -moz-transition: .5s;
-  -webkit-transition: .5s;
-  /* ...and now for the proper property */
-  transition: .5s;
-  text-align: center;
-  margin: 50px auto;
-}
-.portfolio-item:hover {
-  color: #FFF;
-  box-shadow: 3px 3px 5px black;
-}
-.portfolio-item>.desc {
-  display: none;
-  position: relative;
-  left: 110%;
-  color: #FFF;
-}
-/*Images for the portfolio section*/
-#getmood {
-  background: url(../img/getmood.png) no-repeat center center;
-}
 
-#nozama {
-  background: url(../img/nozama.png) no-repeat center center;
-}
-
-#tic-tac-hue {
-  background: url(../img/tictachue.png) no-repeat center center;
-}
-
-/*MAIN HOVERABLES*/
-#main a #coder.intro-block:hover span {
-  display: none;
-}
-#main a #coder.intro-block:hover:after {
-  content: 'GitHub:astoellis';
-}
-#main a #blogger.intro-block:hover span {
-  display: none;
-}
-#main a #blogger.intro-block:hover:after {
-  content: 'Blog:astoellis';
-}
-#main a #contact-me.intro-block:hover span {
-  display: none;
-}
-#main a #contact-me.intro-block:hover:after {
-  content: 'andrew + at + astoellis.me';
-}
-#main a #resume.intro-block:hover span {
-  display: none;
-}
-#main a #resume.intro-block:hover:after {
-  content: 'Pretty Word Thing';
-}
 header {
   text-align: center;
   padding-bottom: 1.5em;

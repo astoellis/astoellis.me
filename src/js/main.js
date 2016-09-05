@@ -1,5 +1,5 @@
-document.addEventListener("DOMContentLoaded", function() {
   var els = document.getElementsByClassName('portfolio-item');
+  document.addEventListener("DOMContentLoaded", function() {
   for (var i = 0; i < els.length; i++) {
     els[i].addEventListener('mouseenter', function(e){
       var blah = this.children[0];

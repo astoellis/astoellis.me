@@ -8,7 +8,11 @@ module.exports = function( grunt ) {
     // cssmin config
     cssmin: require( './build/config/cssmin' ),
     // image optimizing config
-    imagemin: require( './build/config/imagemin' )
+    imagemin: require( './build/config/imagemin' ),
+    // watch files and rebuild
+    watch: require('./build/config/watch'),
+    // insert scripts
+    insert: require('./build/config/insert'),
   } );
 
   // load npm plugins (all dependencies that match /^grunt/)
@@ -16,5 +20,9 @@ module.exports = function( grunt ) {
 
   // load custom tasks
   grunt.loadTasks( './build/tasks' );
+
+  grunt.event.on('watch', function(action, filepath, target) {
+  grunt.log.writeln(target + ': ' + filepath + ' has ' + action);
+});
 
 };
