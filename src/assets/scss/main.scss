@@ -49,6 +49,39 @@ h1 {
   font-weight: lighter;
 }
 
+#portfolio-main {
+  width: 100%;
+}
+
+.card-container {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.portfolio-item {
+  height: 400px;
+  width: 200px;
+  margin: 50px auto 0 auto;
+}
+
+.portfolio-item.android-app {
+  background-image: url('../img/android-app.png');
+  background-size: cover;
+}
+
+.portfolio-item.starry-site {
+  background-image: url('../img/starry-site.png');
+  background-size: cover;
+}
+
+.portfolio-item.mwp {
+  background-image: url('../img/metrowest.png');
+  background-size: cover;
+}
+
 /*SET FOR MEDIUM*/
 @media (max-width: 40em) {
   h1 {
