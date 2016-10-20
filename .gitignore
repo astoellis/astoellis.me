@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-node_modules/
-temp/
-www/
-=======
 node_modules/
 temp/
 www/
 **/*.log
 *.log
->>>>>>> overwrite
