@@ -3,3 +3,4 @@ temp/
 www/
 **/*.log
 *.log
+*.DS_Store
