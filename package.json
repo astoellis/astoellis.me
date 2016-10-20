@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "personal site",
   "scripts": {
-    "start": "node ./node_modules/http-server/bin/http-server -p 3694"
+    "start": "node ./node_modules/http-server/bin/http-server -p 3694 ./www"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,6 @@
     "load-grunt-tasks": "^3.5.2"
   },
   "dependencies": {
-    "http-server": "^0.9.0"
+    "http-server": "0.9.0"
   }
 }
