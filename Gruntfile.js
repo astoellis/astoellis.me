@@ -3,6 +3,7 @@ module.exports = function( grunt ) {
   grunt.initConfig( {
     // read package.json
     pkg: grunt.file.readJSON( 'package.json' ),
+    clean: ['www/*'],
     // sass config
     sass: require( './build/config/sass' ),
     // cssmin config
@@ -11,10 +12,8 @@ module.exports = function( grunt ) {
     imagemin: require( './build/config/imagemin' ),
     // watch files and rebuild
     watch: require('./build/config/watch'),
-    // insert scripts
-    insert: require('./build/config/insert'),
     // copy static files
-    copy: require('./build/config/copy'),
+    copy: require('./build/config/copy')
   } );
 
   // load npm plugins (all dependencies that match /^grunt/)
