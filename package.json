@@ -1,27 +1,13 @@
 {
-  "name": "astoellis.me",
+  "name": "codelemur.com",
   "version": "1.0.0",
   "description": "personal site",
-  "scripts": {
-    "start": "node ./node_modules/http-server/bin/http-server -p 3694 ./www"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/astoellis/astoellis.me.git"
-  },
-  "author": "Andrew S. Ellis",
+  "scripts": {},
+  "repository": "git+https://github.com/codelemur/codelemur.com.git",
+  "author": "Andrew S.E. Wylde",
   "license": "ISC",
   "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-contrib-clean": "^1.1.0",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-cssmin": "^1.0.2",
-    "grunt-contrib-imagemin": "^1.0.1",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-sass": "^1.2.1",
-    "load-grunt-tasks": "^3.5.2"
+    "sass": "1.18.0"
   },
-  "dependencies": {
-    "http-server": "0.9.0"
-  }
+  "main": "index.js"
 }

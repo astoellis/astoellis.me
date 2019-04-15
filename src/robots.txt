@@ -2,4 +2,4 @@
 User-agent: *
 
 # Sitemap
-Sitemap: http://www.astoellis.me/sitemap.xml
+Sitemap: https://codelemur.com/sitemap.xml
