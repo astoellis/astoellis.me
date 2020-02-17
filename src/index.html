@@ -1,55 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta
+      name="Description"
+      content="Personal website for Andrew Wylde, a Web Developer living in Palo Alto, CA, USA"
+    />
+    <meta charset="utf-8" />
+    <title>Code Lemur</title>
 
-<head>
-  <meta name="Description"
-    content="Personal website for Andrew Wylde, a Web Developer living in Boston, Massachusetts, USA">
-  <meta charset="utf-8">
-  <title>Code Lemur</title>
-  <link href="/assets/scss/main.scss" rel="stylesheet">
-  <meta name=viewport content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-  <link rel="icon" href="/assets/img/favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
-  <link rel="manifest" href="/assets/img/site.webmanifest">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-83730011-3"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:800&text=Andrew%20Wylde"
+      rel="stylesheet"
+      disabled
+      media="none"
+      onload="this.media='all'; this.disabled = false;"
+    />
+    <link rel="stylesheet" href="./assets/scss/main.scss" />
+    <link rel="icon" href="/assets/img/favicon.ico" media="all" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png" media="all" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png" media="all" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png" media="all" />
+    <link rel="manifest" href="/assets/img/site.webmanifest" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-83730011-3"></script>
+    <script async>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-    gtag('config', 'UA-83730011-3');
-  </script>
-</head>
+      gtag('config', 'UA-83730011-3');
+    </script>
+  </head>
 
-<body>
-  <section class="container">
-    <div class="full-height disappear"></div>
-    <div class="color-block top-color"></div>
-    <div class="color-block bottom-color"></div>
-    <div class="center-block">
-      <div class="name-title">
-        <h1>Andrew Wylde</h1>
+  <body>
+    <section class="container">
+      <div class="full-height disappear"></div>
+      <div class="color-block top-color">
+        <div id="profile-photo" aria-label="Profile Photo of Andrew Wylde" class="img-circle"></div>
       </div>
-    </div>
-    <div class="links">
-        <a class="intro-block" href="https://github.com/codelemur" target="_new">
-          <span>GitHub</span>
-        </a>
-        <a class="intro-block" href="https://blog.codelemur.com/" target="_new">
-          <span>Writing</span>
-        </a>
-        <a class="intro-block" href="mailto:astoellis@gmail.com" target="_new">
-          <span>Contact</span>
-        </a>
-        <a class="intro-block" href="/resume_wylde.pdf" target="_new">
-          <span>Resume</span>
-        </a>
-    </div>
-  </section>
-</body>
-
+      <div class="color-block bottom-color">
+        <div class="links">
+          <a class="nav-link" href="https://github.com/codelemur" target="_new">
+            GitHub
+          </a>
+          <a class="nav-link" href="https://blog.codelemur.com/" target="_new">
+            Writing
+          </a>
+          <a class="nav-link" href="mailto:andrew@codelemur.com" target="_new">
+            Contact
+          </a>
+          <a class="nav-link" href="/resume_wylde.pdf" target="_new">
+            Resume
+          </a>
+        </div>
+      </div>
+      <div class="center-block">
+        <div class="name-title">
+          <h1>Andrew Wylde</h1>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

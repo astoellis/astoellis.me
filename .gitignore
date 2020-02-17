@@ -1,6 +1,5 @@
 node_modules/
 temp/
-www/
 **/*.log
 *.log
 *.DS_Store

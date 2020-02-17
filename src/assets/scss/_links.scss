@@ -1,0 +1,30 @@
+.links {
+  opacity: 0; //. initial value
+  animation: fade-in 0.8s ease-in 1.3s 1 forwards;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+  align-self: center;
+  bottom: 0;
+  width: 100%;
+  @media screen and (max-width: 470px) {
+    font-size: 12px;
+  }
+  a.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.4s cubic-bezier(0.77, 0, 0.175, 1),  box-shadow 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+    border-radius: 2px;
+    font-size: 2em;
+    &:hover {
+      background: #222;
+      box-shadow: 1px 2px 5px rgba(34,34,34,1);
+    }
+  }
+}
